@@ -1,0 +1,10 @@
+Cancion
+    id_cancion
+    titulo
+    numero //ubicacion de esta cancion dentro del album al que pertenece    
+    id_album
+    id_artista //no seria necesario, accedo al artista a travez del album
+    duracion
+    seguidores
+    puntuacion
+    resproducciones
