@@ -58,3 +58,22 @@ Album
     getPuntuacion()
     Album()
     Album(titulo, id_artista, path_cover, fecha)    
+
+Artista
+    id_artista //por ahora las bandas esta incluidas en artisa
+    nombre
+    path_foto //aun que deberian tener su galeria, o quiza uasar la foto del ultimo album    
+    seguidores
+    puntuacion
+    comentarios //igual que en cancion
+
+    setNombre()
+    getNombre()
+    setPathFoto()
+    getPathFoto()
+    setSeguidores()
+    getSeguidores()    
+    setPuntuacion()
+    getPuntuacion()
+    Artista()
+    Artista(nombre, path_foto)    
