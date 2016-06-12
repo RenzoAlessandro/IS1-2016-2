@@ -8,3 +8,14 @@ Cancion
     seguidores
     puntuacion
     resproducciones
+
+    setTitulo()
+    getTitulo()
+    setNumero()
+    getNumero()
+    setId_album()
+    getId_album()
+    setDuracion()
+    getDuracion()
+    setSeguidores()//esta funcion deberia actualizarse o ejecutarse sola?, de acuerdo a los usuarios que sigan una cancion o cada vez que que alguien siga o deje solo se opera, o esta funcion es solo para insertar ese cambion, es decir los calculos se hacen afuera, aqui solo se pone ese resultado
+    getSeguidores()    
