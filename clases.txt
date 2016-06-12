@@ -107,3 +107,23 @@ Usuario
     getPais()
     Usuario()
     Usuario(username, password, email, nombre, apellido, fecha_nacimiento, path_foto_perfil, pais)    
+
+Playlist
+    id_playlist
+    id_usuario
+    titulo
+    canciones // la plylist tendra varias canciones de distintos aritstas    
+    seguidores //numero, la relacon con los seguidores, estan en otra tabla intermedia
+    puntuacion
+    comentarios 
+    
+    setUsuario()
+    getUsuario()
+    setTitulo()
+    getTitulo()
+    setSeguidores()
+    getSeguidores()
+    setPuntuacion()
+    getPuntuacion()    
+    Playlist()
+    Playlist(id_usuario, titulo)    
