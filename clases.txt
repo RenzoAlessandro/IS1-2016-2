@@ -76,4 +76,14 @@ Artista
     setPuntuacion()
     getPuntuacion()
     Artista()
-    Artista(nombre, path_foto)    
+    Artista(nombre, path_foto)
+
+Usuario
+    id_usuario
+    user
+    password
+    email
+    nombre
+    apellido
+    fecha_nacimiento // quiza no se anecesario
+    path_foto_perfil
