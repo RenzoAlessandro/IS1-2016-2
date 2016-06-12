@@ -88,6 +88,7 @@ Usuario
     fecha_nacimiento // quiza no se anecesario
     path_foto_perfil
     pais
+    fechaCreacion    
     
     setUsername()
     getUsername()    
@@ -105,6 +106,8 @@ Usuario
     getPathFoto()
     setPais()
     getPais()
+    setFechaCreacion()
+    getFechaCreacion()    
     Usuario()
     Usuario(username, password, email, nombre, apellido, fecha_nacimiento, path_foto_perfil, pais)    
 
@@ -112,6 +115,7 @@ Playlist
     id_playlist
     id_usuario
     titulo
+    fecha    
     canciones // la plylist tendra varias canciones de distintos aritstas    
     seguidores //numero, la relacon con los seguidores, estan en otra tabla intermedia
     puntuacion
@@ -121,6 +125,8 @@ Playlist
     getUsuario()
     setTitulo()
     getTitulo()
+    setFecha()
+    getFecha()    
     setSeguidores()
     getSeguidores()
     setPuntuacion()
