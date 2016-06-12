@@ -80,10 +80,30 @@ Artista
 
 Usuario
     id_usuario
-    user
+    username
     password
     email
     nombre
     apellido
     fecha_nacimiento // quiza no se anecesario
     path_foto_perfil
+    pais
+    
+    setUsername()
+    getUsername()    
+    setPassword()
+    getPassword()
+    setEmail()
+    getEmail()
+    setNombre()
+    getNombre()
+    setApellido()
+    getApellido()
+    setFechaNacimiento()
+    getFechaNacimiento()
+    setPathFoto()
+    getPathFoto()
+    setPais()
+    getPais()
+    Usuario()
+    Usuario(username, password, email, nombre, apellido, fecha_nacimiento, path_foto_perfil, pais)    
