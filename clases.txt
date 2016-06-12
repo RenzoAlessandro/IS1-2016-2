@@ -28,4 +28,33 @@ Cancion
     setPath()
     getPath()    
     Cancion()
-    Cancion(titulo, path, numero, id_album, id_aritsta, duracion)
+    Cancion(titulo, path, numero, id_album, id_aritsta, duracion)//quiza duracion no sea necesario
+
+Album
+    id_album
+    titulo
+    id_artista
+    path_cover // es una ubicaion de una imgen    
+    genero //este seria una relacion de muchos a muchos    
+    fecha
+    seguidores
+    puntuacion
+    duracion //suma de las duraion de las canciones que lo conforman    
+    comentarios //igual que comentarios de cancion    
+
+    setTitulo()
+    getTitulo()
+    setId_artista()
+    getId_artista()
+    setPathCover()
+    getPathCover()
+    setFecha()
+    getFecha()
+    setDuracion()
+    getDuracion()
+    setSeguidores()
+    getSeguidores()    
+    setPuntuacion()
+    getPuntuacion()
+    Album()
+    Album(titulo, id_artista, path_cover, fecha)    
