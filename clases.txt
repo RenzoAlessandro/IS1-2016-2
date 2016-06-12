@@ -1,13 +1,15 @@
 Cancion
     id_cancion
     titulo
+    path // donde estara ubicado el archivo de la cancion    
     numero //ubicacion de esta cancion dentro del album al que pertenece    
     id_album
     id_artista //no seria necesario, accedo al artista a travez del album
     duracion
-    seguidores
+    seguidores //esta variable solo deberia ser el numero d seguidores, aun que no se si es buan idea almancenarlo, o hacer siempre el calculo cada vez que tenga que consultar este valor, es decir onvertirlo en metodoso
     puntuacion
     resproducciones
+    comentarios //cada cancion deberia tener su propio comentario???  aun que no estaria aqui, es decir cada usuario tendria un comentario con un id_cancion para hacer referencia a setso
 
     setTitulo()
     getTitulo()
@@ -19,3 +21,11 @@ Cancion
     getDuracion()
     setSeguidores()//esta funcion deberia actualizarse o ejecutarse sola?, de acuerdo a los usuarios que sigan una cancion o cada vez que que alguien siga o deje solo se opera, o esta funcion es solo para insertar ese cambion, es decir los calculos se hacen afuera, aqui solo se pone ese resultado
     getSeguidores()    
+    setPuntuacion()
+    getPuntuacion()
+    setReproducciones()
+    getReproducciones()
+    setPath()
+    getPath()    
+    Cancion()
+    Cancion(titulo, path, numero, id_album, id_aritsta, duracion)
